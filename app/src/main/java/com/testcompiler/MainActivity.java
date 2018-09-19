@@ -1,12 +1,10 @@
 package com.testcompiler;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+public class MainActivity{
 
-public class MainActivity extends AppCompatActivity {
+	public static String GREETING = "Hello world!";
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
+	public static void main(String []args) {
+
 	}
 }
